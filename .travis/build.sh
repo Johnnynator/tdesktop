@@ -604,6 +604,7 @@ buildCustomQt() {
   cd "$EXTERNAL/qt${QT_VERSION}/qtbase/src/plugins/platforminputcontexts"
   git clone https://github.com/telegramdesktop/fcitx.git
   git clone https://github.com/telegramdesktop/hime.git
+  git clone https://github.com/telegramdesktop/nimf.git
   cd ../../../..
 
   ./configure -prefix $QT_PATH -release -opensource -confirm-license -qt-zlib \
